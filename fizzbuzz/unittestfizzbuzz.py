@@ -4,13 +4,13 @@ from fizzbuzz import fizzbuzzFunction
 class FizzbuzzTest(unittest.TestCase):
 
     def testNumberFizz(self):
-        for number in [36, 3, 6, 39, 1]:
+        for number in [36, 3, 6, 39]:
             print('test', number)
             assert fizzbuzzFunction(number) == 'Fizz'
 
     def testNumberBuzz(self):
 
-        for number in [5, 10, 15, 40]:
+        for number in [5, 10]:
             print('test', number)
             assert fizzbuzzFunction(number) == 'Buzz'
 
